@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+<body>
+	<div class="container">
+		<a class="links" id="paracadastro"></a> <a class="links"
+			id="paralogin"></a>
+
+		<div class="content">
+			<!--FORMULÁRIO DE LOGIN-->
+			<div id="login">
+				<form action="Login.mlk" method="post">
+
+
+					<h1>Giriş</h1>
+					<p>
+						<label for="Ad">Kullanıcı Adı</label> <input name="Ad"
+							required="required" type="text"
+							placeholder="Kullanıcı Adınızı Giriniz" />
+					</p>
+
+					<p>
+						<label for="Soyad">Şifre</label> <input name="Soyad"
+							required="required" type="text" placeholder="Şifrenizi Giriniz" />
+					</p>
+
+					<p>
+						<input type="radio" name="tip" value="yonetici" /> <label
+							for="yonetici">Yönetici</label>
+					</p>
+					<p>
+						<input type="radio" name="tip" value="kullanici" /> <label
+							for="kullanici">Kullanıcı</label>
+					</p>
+					<p>
+						<input type="submit" name="Giriş" />
+					</p>
+
+				</form>
+</body>
+</html>
